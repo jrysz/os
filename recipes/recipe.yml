@@ -38,6 +38,9 @@ modules:
         - xdg-desktop-portal-gtk
         - xorg-x11-server-Xwayland
 
+        - greetd
+        - tuigreet
+
   - type: default-flatpaks
     configurations:
       - scope: system
