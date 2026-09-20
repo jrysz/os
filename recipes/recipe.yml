@@ -38,7 +38,6 @@ modules:
 
   - type: default-flatpaks
     configurations:
-      - notify: true # Send notification after install/uninstall is finished (true/false)
         scope: system
         install: # system flatpaks we want all users to have and not remove
           - org.mozilla.firefox
