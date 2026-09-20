@@ -33,7 +33,6 @@ modules:
         - swaylock
         - swayidle
         - swaybg
-        - nwg-look
         - xdg-desktop-portal-wlr
         - xdg-desktop-portal-gtk
         - xorg-x11-server-Xwayland
