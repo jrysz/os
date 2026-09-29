@@ -21,6 +21,7 @@ modules:
     install:
       install-weak-deps: false
       packages:
+        # Desktop Environment
         - sway
         - sway-systemd
         - mesa-vulkan-drivers
@@ -46,6 +47,14 @@ modules:
         - thunar-volman
         - thunar-archive-plugin
         - catfish
+
+        - stow
+        - greetd
+
+  - type: systemd
+    system:
+      enabled:
+        - greetd.service
 
   - type: default-flatpaks
     configurations:
