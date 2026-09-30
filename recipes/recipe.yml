@@ -50,6 +50,7 @@ modules:
 
         - stow
         - greetd
+        - tuigreet
 
   - type: systemd
     system:
