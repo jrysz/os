@@ -51,10 +51,6 @@ modules:
         - stow
         - greetd
 
-  - type: script
-    scripts:
-      - create-greeter.sh
-
   - type: systemd
     system:
       enabled:
